@@ -1,0 +1,15 @@
+# ============================================================
+# SuryaGrid AI — Simulator Dockerfile
+# Lightweight image just for simulate_meters.py
+# ============================================================
+
+FROM python:3.12-slim
+
+WORKDIR /simulator
+
+# Install only what the simulator needs
+RUN pip install --no-cache-dir paho-mqtt python-dotenv
+
+COPY simulator/simulate_meters.py .
+
+CMD ["python", "simulate_meters.py"]
