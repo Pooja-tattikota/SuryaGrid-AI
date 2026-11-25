@@ -1,0 +1,5 @@
+venv/
+__pycache__/
+.DS_Store
+data/hourly_history_v2.csv
+data/sangareddy_solar_raw.csv

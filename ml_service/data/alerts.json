@@ -1,0 +1,14 @@
+[
+  {
+    "time": "2026-11-26 00:19:10.254014",
+    "type": "voltage_fault",
+    "severity": "high",
+    "message": "Anomaly score -0.131"
+  },
+  {
+    "time": "2026-11-26 00:19:31.406971",
+    "type": "possible_theft",
+    "severity": "high",
+    "message": "Anomaly score -0.049"
+  }
+]
